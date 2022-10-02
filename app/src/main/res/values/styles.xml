@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Archer18_semi">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/archer_semibold</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+
+    <style name="Archer16_bold">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/archer_bold_pro</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+
+    <style name="Archer14_semi">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/archer_semibold</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+
+    <style name="Archer16_semi">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/archer_semibold</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+
+    <style name="Archer32_bold">
+        <item name="android:textSize">32sp</item>
+        <item name="fontFamily">@font/archer_bold_pro</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+
+    <style name="Archer14_medium">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/archer_medium</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+</resources>
