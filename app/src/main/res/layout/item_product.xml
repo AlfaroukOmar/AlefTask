@@ -140,7 +140,7 @@
                 app:layout_constraintBaseline_toBaselineOf="@+id/value"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@id/value"
-                tools:text="SAR" />
+                tools:text="L.E" />
 
 
             <TextView
@@ -148,6 +148,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="5dp"
                 android:text="50 min"
+                android:id="@+id/prepare_time"
                 app:layout_constraintBottom_toBottomOf="@id/prepare_time_icon"
                 app:layout_constraintEnd_toStartOf="@id/prepare_time_icon"
                 app:layout_constraintTop_toTopOf="@id/prepare_time_icon" />

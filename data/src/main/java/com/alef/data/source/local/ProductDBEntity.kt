@@ -6,7 +6,7 @@ import com.alef.domain.entities.ProductEntity
 
 @Entity
 data class ProductDBEntity(
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
     val Id: Int,
     val Name: String,
     val Description: String,

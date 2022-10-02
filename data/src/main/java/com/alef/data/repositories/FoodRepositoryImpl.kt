@@ -11,10 +11,11 @@ import com.alef.domain.entities.Status
 import com.alef.domain.repositories.FoodRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
+import javax.inject.Inject
 
 class FoodRepositoryImpl(
-    private val apiService: ApiService,
-    val dbHelper: DBContext,
+    @Inject private val apiService: ApiService,
+    @Inject val dbHelper: DBContext,
 ) : FoodRepository {
     override suspend fun getFoodList(): Status<List<ProductEntity>> {
         val response = apiService.getFoodList()

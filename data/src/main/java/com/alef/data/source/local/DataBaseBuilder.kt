@@ -9,9 +9,7 @@ object DataBaseBuilder {
 
     fun getInstance(context: Context): DBContext {
         if (INSTANCE == null) {
-            synchronized(DBContext::class) {
-                INSTANCE = buildRoomDB(context)
-            }
+            INSTANCE = buildRoomDB(context)
         }
         return INSTANCE!!
     }
@@ -21,6 +19,6 @@ object DataBaseBuilder {
             context.applicationContext,
             DBContext::class.java,
             "Database.db"
-        ).build()
+        ).allowMainThreadQueries().build()
 
 }
